@@ -45,6 +45,8 @@ h1 {
 
 
 .ingredients {
+  display: flex;
+  justify-content: space-between;
   margin: 48px 0 28px 0;
   width: 100%;
   max-width: 969px;
@@ -82,4 +84,39 @@ h3 {
   line-height: 25px;
   color: #333333;
   max-width: 554px;
+}
+
+/* --------right--------- */
+.card {
+  display: inline-block;
+  padding: 57px 51px 7px 43.88px;
+  border-radius: 12px;
+  box-shadow: 0px 0px 20px 0px #0000001A;
+}
+.secs {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 43px;
+}
+.icon-cook {
+  height: 27px;
+  width: 25px;
+}
+.icon {
+  height: 28px;
+  width: 26px;
+}
+.card-title {
+  font-size: 10px;
+  font-weight: 700;
+  color: #bdbdbd;
+}
+.example {
+  font-size: 14px;
+  font-weight: 500;
+  color: #333333;
+}
+.e-y {
+  color: #f2994a;
 }
