@@ -120,3 +120,69 @@ h3 {
 .e-y {
   color: #f2994a;
 }
+
+
+.instructions {
+  width: 100%;
+  max-width: 969px;
+  margin-bottom: 93px;
+}
+.inst {
+  margin-bottom: 28px;
+}
+.pasos {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 35px;
+}
+.ins-text {
+  font-size: 16px;
+  line-height: 20px;
+  max-width: 528px;
+}
+.num {
+  font-family: 'Playfair Display';
+  font-size: 24px;
+  font-weight: 700;
+  color: #fff;
+  background-color: #f2994a;
+  border-radius: 6px;
+}
+.n-uno {
+  padding: 0px 15px 7px 14.8px;
+}
+.n-dos {
+  padding: 0px 13.22px 7px
+}
+.n-tres {
+  padding: 0px 13.65px 7px
+}
+.n-cuatro {
+  padding: 0px 13.16px 7px
+}
+.n-cinco {
+  padding: 0px 13.99px 7px
+}
+.n-seis {
+  padding: 0px 12.77px 7px
+}
+.n-siete {
+  padding: 0px 14.05px 7px
+}
+.source {
+  font-size: 16px;
+  font-style: italic;
+  color: #bdbdbd;
+  margin-top: 57px;
+}
+
+.created {
+  font-size: 14px;
+  margin-bottom: 24px;
+  color: #828282;
+}
+.user {
+  font-weight: 700;
+  text-decoration: none;
+  color: #828282;
+}
